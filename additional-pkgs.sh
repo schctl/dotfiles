@@ -21,6 +21,6 @@ jmtpfs
 visual-studio-code-bin"
 
 sudo pacman --noconfirm -S $(echo $PKGS)
-paru -S $(echo $PKGS_AUR)
+paru --skipreview -S $(echo $PKGS_AUR)
 
-sudo pacman -Rns $(pacman -Qdtq)
+sudo pacman --noconfirm -Rns $(pacman -Qdtq)

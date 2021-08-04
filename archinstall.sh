@@ -51,7 +51,7 @@ git clone https://aur.archlinux.org/paru.git
 cd paru
 makepkg -si
 
-paru -S $REQUIRED_AUR_PKGS
+paru --skipreview -S $REQUIRED_AUR_PKGS
 
 # Cleanup
 # =======
