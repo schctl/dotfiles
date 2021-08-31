@@ -74,13 +74,16 @@ element {
 }
 
 element-icon {
+    background-color:  @transparent;
     size:  24px;
 }
 
 element-text {
-    expand:          true;
-    vertical-align:  0.5;
-    margin:          0px 4px 0px 4px;
+    background-color:  @transparent;
+    expand:            true;
+    vertical-align:    0.5;
+    text-color:        @fg;
+    margin:            0px 4px 0px 4px;
 }
 
 element selected {
