@@ -98,7 +98,7 @@ source ~/.oh-my-zsh/oh-my-zsh.sh
 # For a full list of active aliases, run `alias`.
 
 export EDITOR=nvim
-export PATH=$PATH:/home/$(whoami)/.cargo/bin
+export PATH=$PATH:/home/$(whoami)/.cargo/bin:/home/$(whoami)/.local/bin
 
 alias vim="nvim"
 alias ls="exa"
