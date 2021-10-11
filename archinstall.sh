@@ -4,7 +4,7 @@ set -e
 # Full system setup script for arch based systems.
 # Assumes you have a video driver, git and sudo installed.
 
-mkdir -p ~/.config
+mkdir -p ~/.config/
 mkdir -p ~/Pictures/
 
 ABS_PATH=$(dirname $(realpath $0))
@@ -32,7 +32,7 @@ ttf-font-awesome noto-fonts-emoji"
 REQUIRED_AUR_PKGS="\
 polybar \
 pfetch-git \
-nerd-fonts-mononoki nerd-fonts-roboto-mono ttf-vlgothic"
+nerd-fonts-mononoki nerd-fonts-roboto-mono ttf-vlgothic ttf-nerd-fonts-symbols-mono"
 
 $ABS_PATH/install-dots.sh
 
@@ -42,7 +42,7 @@ sudo pacman --noconfirm -S $REQUIRED_PKGS
 # paru and AUR
 # ============
 
-rustup default stable
+rustup default nightly
 
 mkdir build
 cd build
