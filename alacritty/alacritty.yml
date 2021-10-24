@@ -12,7 +12,7 @@ window:
     x: 16
     y: 16
 
-background_opacity: 0.75
+background_opacity: 0.72
 
 # Colors (One Dark)
 colors:
