@@ -104,6 +104,7 @@ alias vim="nvim"
 alias ls="exa"
 alias grep="rg"
 alias ytdl="youtube-dl"
+alias find="fd"
 
 alias ls-installed="comm -23 <(pacman -Qqett | sort) <(pacman -Qqg base-devel | sort | uniq)"
 

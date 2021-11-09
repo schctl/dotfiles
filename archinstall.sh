@@ -18,7 +18,6 @@ feh \
 dunst \
 alacritty \
 rofi \
-picom \
 zsh \
 curl \
 scrot \
@@ -27,11 +26,13 @@ rustup \
 exa \
 ripgrep \
 npm \
+fd \
 ttf-font-awesome noto-fonts-emoji"
 
 REQUIRED_AUR_PKGS="\
 polybar \
 pfetch-git \
+picom-ibhagwan-git \
 nerd-fonts-mononoki nerd-fonts-roboto-mono ttf-vlgothic ttf-nerd-fonts-symbols-mono"
 
 $ABS_PATH/install-dots.sh

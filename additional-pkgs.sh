@@ -8,7 +8,6 @@ python \
 python-dbus \
 nautilus \
 bottom \
-fd \
 mtpfs gvfs-mtp gvfs-gphoto2 \
 discord \
 onefetch"
@@ -16,7 +15,6 @@ onefetch"
 PKGS_AUR="\
 firefox-nightly \
 spotify spicetify-cli \
-scc-bin \
 jmtpfs
 visual-studio-code-bin"
 
