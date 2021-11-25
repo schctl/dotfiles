@@ -1,19 +1,10 @@
-# Arch Linux configuration files
+# Dotfiles
 
-This repository contains my Arch Linux configuration files, and helper scripts to install them and additional packages I use.
+This repository contains my application configuration files, and helper scripts to install them. There
+are also scripts to install packages I use on Arch Linux.
 
 ## Screenshots
 
-<img src="res/rofi-notif.png">
+<img src="screenshots/rofi-notif.png">
 
-#
-
-<img src="res/vscode.png">
-
-#
-
-<img src="res/blender.png">
-
-#
-
-<img src="res/firefox.png">
+<img src="screenshots/vscode.png">

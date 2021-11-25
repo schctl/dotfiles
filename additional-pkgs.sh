@@ -1,20 +1,21 @@
 #!/usr/bin/env sh
+
+# Some extra packages I use frequently
+
 set -e
 
-# Extra packages I use frequently
-
-PKGS="\
-python \
-python-dbus \
-nautilus \
-bottom \
-mtpfs gvfs-mtp gvfs-gphoto2 \
-discord \
+PKGS="                       \
+python                       \
+python-dbus                  \
+nautilus                     \
+bottom                       \
+mtpfs gvfs-mtp gvfs-gphoto2  \
+discord                      \
 onefetch"
 
-PKGS_AUR="\
-firefox-nightly \
-spotify spicetify-cli \
+PKGS_AUR="             \
+firefox-nightly        \
+spotify spicetify-cli  \
 jmtpfs
 visual-studio-code-bin"
 
