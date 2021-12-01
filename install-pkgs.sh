@@ -21,6 +21,7 @@ rofi                                                 \
 zsh                                                  \
 curl                                                 \
 scrot                                                \
+git                                                  \
 neovim                                               \
 rustup                                               \
 exa                                                  \
@@ -34,8 +35,6 @@ polybar             \
 pfetch-git          \
 picom-ibhagwan-git  \
 nerd-fonts-mononoki nerd-fonts-roboto-mono ttf-vlgothic ttf-nerd-fonts-symbols-mono"
-
-$ABS_PATH/install-dots.sh
 
 sudo pacman --noconfirm -Syu
 sudo pacman --noconfirm -S $REQUIRED_PKGS

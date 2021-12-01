@@ -10,7 +10,7 @@ notify() {
     if command -v notify-send &>/dev/null; then
         if (( UPDATES > 31 )); then
             notify-send -u normal -i $NOTIFY_ICON "$UPDATES New packages"
-        elif (( UPDATES > 0 )); then
+        elif (( UPDATES > 3 )); then
             notify-send -u low -i $NOTIFY_ICON "$UPDATES New packages"
         fi
     fi

@@ -200,7 +200,7 @@ gaps inner 5
 exec_always --no-startup-id picom --experimental-backends &
 
 # Wallpaper
-exec_always --no-startup-id feh --bg-scale ~/Pictures/Wallpapers/bg-2-1080.png
+exec_always --no-startup-id feh --bg-scale ~/Pictures/Wallpapers/snowy_1080.png
 
 # Polybar
 exec_always --no-startup-id ~/.config/polybar/scripts/launch.sh
