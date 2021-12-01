@@ -1,31 +1,33 @@
 #!/usr/bin/env sh
 
-NOTIFY_ICON=/usr/share/icons/Papirus/32x32/apps/system-software-update.svg
+NOTIFY_ICON=/usr/share/icons/Papirus-Dark/32x32/apps/system-software-update.svg
 
-UPDATES=$(checkupdates | wc -l);
+update() {
+    UPDATES=$(paru -Qu | wc -l);
+}
 
-if hash notify-send &>/dev/null; then
-    if (( UPDATES > 32 )); then
-        notify-send -u normal -i $NOTIFY_ICON \
-            "You should update soon" "$UPDATES New packages"
-    elif (( UPDATES > 2 )); then
-        notify-send -u low -i $NOTIFY_ICON \
-            "$UPDATES New packages"
+notify() {
+    if command -v notify-send &>/dev/null; then
+        if (( UPDATES > 31 )); then
+            notify-send -u normal -i $NOTIFY_ICON "$UPDATES New packages"
+        elif (( UPDATES > 0 )); then
+            notify-send -u low -i $NOTIFY_ICON "$UPDATES New packages"
+        fi
     fi
-fi
+}
 
 while true; do
-    # Check for updates every 5 minutes
+    update
+    notify
+
     if (( UPDATES == 0 )); then
         echo " 0"
         sleep 300
-
-    # Refresh more frequently to check
-    # if updates are done
-    elif (( UPDATES > 0 )); then
-        echo " $UPDATES"
-        sleep 10
     fi
 
-    UPDATES=$(checkupdates | wc -l);
+    while (( UPDATES > 0 )); do
+        echo " $UPDATES"
+        sleep 10
+        update
+    done
 done
