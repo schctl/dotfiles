@@ -14,34 +14,34 @@ window:
 
 background_opacity: 0.72
 
-# Colors (One Dark)
+# Colors (Nord)
 colors:
-  # Default colors
-  primary:
-    background: '0x252930'
-    foreground: '0xabb2bf'
+   # Default colors
+   primary:
+     background: '#252930'
+     foreground: '#ACB3C0'
 
-  # Normal colors
-  normal:
-    black:   '0x1e2127'
-    red:     '0xe06c75'
-    green:   '0x98c379'
-    yellow:  '0xd19a66'
-    blue:    '0x61afef'
-    magenta: '0xc678dd'
-    cyan:    '0x56b6c2'
-    white:   '0xabb2bf'
+   # Normal colors
+   normal:
+     black:   '#394050'
+     red:     '#BF616A'
+     green:   '#A3BE8C'
+     yellow:  '#EBCB8B'
+     blue:    '#81A1C1'
+     magenta: '#C781A5'
+     cyan:    '#88C0D0'
+     white:   '#E5E9F0'
 
-  # Bright colors
-  bright:
-    black:   '0x5c6370'
-    red:     '0xe06c75'
-    green:   '0x98c379'
-    yellow:  '0xd19a66'
-    blue:    '0x61afef'
-    magenta: '0xc678dd'
-    cyan:    '0x56b6c2'
-    white:   '0xffffff'
+   # Bright colors
+   bright:
+     black:   '#5C6370'
+     red:     '#BF616A'
+     green:   '#A3BE8C'
+     yellow:  '#EBCB8B'
+     blue:    '#81A1C1'
+     magenta: '#C781A5'
+     cyan:    '#8FBDBC'
+     white:   '#ECEFF4'
 
 font:
   size: 12
