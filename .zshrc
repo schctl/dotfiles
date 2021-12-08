@@ -99,6 +99,7 @@ source ~/.oh-my-zsh/oh-my-zsh.sh
 
 export EDITOR=nvim
 export PATH=$PATH:/home/$(whoami)/.cargo/bin:/home/$(whoami)/.local/bin
+export LANG=en_US.UTF-8
 
 alias vim="nvim"
 alias ls="exa"

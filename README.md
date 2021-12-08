@@ -2,14 +2,14 @@
 
 This repository contains my application configuration files, and some helper scripts.
 
-Everything in this repository is for my **personal** use.
+**Disclaimer:** Everything in this repository is for my **personal** use. Also, the scripts could perform
+potentially destructive actions, so be careful if you intend to use them.
 
 ## Scripts
 
 The [`install-pkgs.sh`](./install-pkgs.sh) script will install packages required for this config.
 
-**Disclaimer:** The scripts will perform potentially destructive actions, so make sure you read
-and them if you intend to use them.
+
 
 ## Screenshots
 

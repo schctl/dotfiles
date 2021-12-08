@@ -8,7 +8,7 @@ PKGS="                       \
 python                       \
 python-dbus                  \
 nautilus                     \
-bottom                       \
+btop                         \
 mtpfs gvfs-mtp gvfs-gphoto2  \
 discord                      \
 onefetch"
