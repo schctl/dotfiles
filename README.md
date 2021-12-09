@@ -9,13 +9,15 @@ potentially destructive actions, so be careful if you intend to use them.
 
 The [`install-pkgs.sh`](./install-pkgs.sh) script will install packages required for this config.
 
-
-
 ## Screenshots
 
 <img src="screenshots/rofi.png">
 
 <img src="screenshots/vscode.png">
+
+<img src="screenshots/spotify_blender.png">
+
+<img src="screenshots/exit-i3.png">
 
 ---
 

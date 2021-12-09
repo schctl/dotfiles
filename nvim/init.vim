@@ -42,7 +42,8 @@ Plug 'ryanoasis/vim-devicons'
 call plug#end()
 
 colorscheme onedark
-highlight Normal guibg=None
+" highlight Normal guibg=None
+
 
 let g:airline_theme='deus'
 let NERDTreeShowHidden=1

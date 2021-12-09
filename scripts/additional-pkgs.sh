@@ -13,10 +13,9 @@ mtpfs gvfs-mtp gvfs-gphoto2  \
 discord                      \
 onefetch"
 
-PKGS_AUR="             \
-firefox-nightly        \
-spotify spicetify-cli  \
-jmtpfs
+PKGS_AUR="      \
+firefox-nightly \
+jmtpfs          \
 visual-studio-code-bin"
 
 sudo pacman --noconfirm -S $(echo $PKGS)

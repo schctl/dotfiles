@@ -9,16 +9,16 @@
 
 window:
   padding:
-    x: 16
-    y: 16
+    x: 14
+    y: 14
 
-background_opacity: 0.72
+background_opacity: 0.82
 
 # Colors (Nord)
 colors:
    # Default colors
    primary:
-     background: '#252930'
+     background: '#222731'
      foreground: '#ACB3C0'
 
    # Normal colors

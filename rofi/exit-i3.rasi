@@ -1,0 +1,24 @@
+/* Dialog to exit i3 */
+
+@import "colors.rasi"
+
+* {
+    background-color:  @bg-alt;
+    text-color:        @fg;
+	font:              "RobotoMono Nerd Font 10";
+}
+
+window {
+    width:          360px;
+    padding:        26px;
+    border:		    0px;
+    border-radius:  0px;
+    border-color:   @ac;
+    location:       center;
+    y-offset:       -2em;
+}
+
+entry {
+    expand:     true;
+    text-color: @ac;
+}

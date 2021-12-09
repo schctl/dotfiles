@@ -5,7 +5,7 @@
 #   \ \  \      __\_\  \ \|____________|  \ \  \|\__\_\  \   \ \  \    \ \  \
 #    \ \__\    |\_______\                  \ \____________\   \ \__\    \ \__\
 #     \|__|    \|_______|                   \|____________|    \|__|     \|__|
-#
+
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
 set $mod Mod4
@@ -144,48 +144,48 @@ bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
-bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
+bindsym $mod+Shift+e exec ~/.config/i3/scripts/exit.sh
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
-        # These bindings trigger as soon as you enter the resize mode
+    # These bindings trigger as soon as you enter the resize mode
 
-        # Pressing left will shrink the window’s width.
-        # Pressing right will grow the window’s width.
-        # Pressing up will shrink the window’s height.
-        # Pressing down will grow the window’s height.
-        bindsym j resize shrink width 10 px or 10 ppt
-        bindsym k resize grow height 10 px or 10 ppt
-        bindsym l resize shrink height 10 px or 10 ppt
-        bindsym semicolon resize grow width 10 px or 10 ppt
+    # Pressing left will shrink the window’s width.
+    # Pressing right will grow the window’s width.
+    # Pressing up will shrink the window’s height.
+    # Pressing down will grow the window’s height.
+    bindsym j resize shrink width 10 px or 10 ppt
+    bindsym k resize grow height 10 px or 10 ppt
+    bindsym l resize shrink height 10 px or 10 ppt
+    bindsym semicolon resize grow width 10 px or 10 ppt
 
-        # same bindings, but for the arrow keys
-        bindsym Left resize shrink width 10 px or 10 ppt
-        bindsym Down resize grow height 10 px or 10 ppt
-        bindsym Up resize shrink height 10 px or 10 ppt
-        bindsym Right resize grow width 10 px or 10 ppt
+    # same bindings, but for the arrow keys
+    bindsym Left resize shrink width 10 px or 10 ppt
+    bindsym Down resize grow height 10 px or 10 ppt
+    bindsym Up resize shrink height 10 px or 10 ppt
+    bindsym Right resize grow width 10 px or 10 ppt
 
-        # back to normal: Enter or Escape or $mod+r
-        bindsym Return mode "default"
-        bindsym Escape mode "default"
-        bindsym $mod+r mode "default"
+    # back to normal: Enter or Escape or $mod+r
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+    bindsym $mod+r mode "default"
 }
 
 bindsym $mod+r mode "resize"
 
 # ======================== Window Colors ========================
 
-set  $bg-clr             #dddddd
+set  $bg-clr             #d8e1ea
 set  $text-clr           #efeff6
-set  $inactive-bg-clr    #1c1f25
-set  $inactive-text-clr  #242426
-set  $urgent-bg-clr      #eb3449
+set  $inactive-bg-clr    #222731
+set  $inactive-text-clr  #3A404C
+set  $urgent-bg-clr      #bf616a
 set  $indicator-clr      #222226
 
-# Window color      border            background         text                indicator
-client.focused      $bg-clr           $bg-clr            $text-clr           $indicator-clr
-client.unfocused    $inactive-bg-clr  $inactive-bg-clr   $inactive-text-clr  $indicator-clr
-client.urgent       $urgent-bg-clr    $bg-clr            $text-clr           $indicator-clr
+# Window color      border             background          text                 indicator
+client.focused      $bg-clr            $bg-clr             $text-clr            $indicator-clr
+client.unfocused    $inactive-bg-clr   $inactive-bg-clr    $inactive-text-clr   $indicator-clr
+client.urgent       $urgent-bg-clr     $bg-clr             $text-clr            $indicator-clr
 
 # Border
 for_window [class=".*"] title_format "<span font='monospace 8'> </span>"
@@ -205,8 +205,5 @@ exec_always --no-startup-id feh --bg-scale ~/Pictures/Wallpapers/snowy_1080.png
 # Polybar
 exec_always --no-startup-id ~/.config/polybar/scripts/launch.sh
 
-# Utility
-# -------
 # Screenshots
 bindsym $mod+s exec scrot ~/Pictures/%b-%d_%H-%M-%S.png
-
