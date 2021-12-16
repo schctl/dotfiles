@@ -4,7 +4,7 @@
 
 set -e
 
-cd /tmp
+pushd /tmp
 
 # Install spotify and spicetify
 paru --skipreview -S spotify spicetify-cli
@@ -19,3 +19,5 @@ spicetify config color_scheme Nord
 spicetify config extensions bookmark.js
 spicetify config extensions fullAppDisplay.js
 spicetify apply
+
+popd # /tmp
