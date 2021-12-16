@@ -39,14 +39,20 @@ Plug 'tpope/vim-fugitive'
 Plug 'skammer/vim-css-color'
 Plug 'ryanoasis/vim-devicons'
 
+Plug 'wfxr/minimap.vim'
+
 call plug#end()
 
 colorscheme onedark
 " highlight Normal guibg=None
 
-
 let g:airline_theme='deus'
 let NERDTreeShowHidden=1
+
+let g:minimap_width = 24
+let g:minimap_auto_start = 1
+let g:minimap_auto_start_win_enter = 1
+let g:minimap_highlight_range = 1
 
 let mapleader = " "
 nnoremap <leader>n :NERDTreeFocus<CR>
