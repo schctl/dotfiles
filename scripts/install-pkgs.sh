@@ -36,14 +36,12 @@ install_pkgs() {
     sudo pacman --noconfirm -S $REQUIRED_PKGS
     # Setup rust
     rustup default stable
-    # Cleanup
-    sudo pacman --noconfirm -Rns $(pacman -Qdtq)
 }
 
 install_paru() {
-    git clone https://aur.archlinux.org/paru.git
-    # Build
+    git clone https://aur.archlinux.org/paru.git /tmp/paru
     pushd /tmp/paru
+    # Build
     makepkg -si
     popd
     # Cleanup
@@ -66,5 +64,5 @@ echo -n "Install Oh My ZSH? [y/N]"
 read omz
 
 if [ "$omz" != "${omz#[Yy]}" ] ;then
-    echo install_omz
+    install_omz
 fi

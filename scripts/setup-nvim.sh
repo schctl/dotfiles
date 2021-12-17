@@ -4,7 +4,9 @@
 
 set -e
 
-ABS_PATH=$(dirname $(realpath $0))
+mkdir -p ~/.config
+
+ABS_PATH=$(dirname $(realpath $0))/../
 
 # Install neovim if its not already
 # nodejs required by `vim-plug` and `coc.nvim`
