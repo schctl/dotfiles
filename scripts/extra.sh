@@ -19,6 +19,4 @@ PKGS_AUR="          \
     visual-studio-code-bin"
 
 sudo pacman --noconfirm -S $(echo $PKGS)
-sudo pacman --noconfirm -Rns $(pacman -Qdtq)
-
 paru --skipreview -S $(echo $PKGS_AUR)

@@ -7,7 +7,7 @@ set -e
 mkdir -p ~/.config
 mkdir -p ~/Pictures/
 
-ABS_PATH=$(dirname $(realpath $0))
+ABS_PATH=$(dirname $(realpath $0))/../
 
 ln -s $ABS_PATH/wall      $HOME/Pictures/Wallpapers
 ln -s $ABS_PATH/.zshrc    $HOME/.zshrc
