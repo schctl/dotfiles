@@ -70,7 +70,7 @@ ENABLE_CORRECTION="true"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git python man cargo)
+plugins=(git python man rust)
 
 # source $ZSH/oh-my-zsh.sh
 source ~/.oh-my-zsh/oh-my-zsh.sh
