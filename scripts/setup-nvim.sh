@@ -12,9 +12,6 @@ ABS_PATH=$(dirname $(realpath $0))/../
 # nodejs required by `vim-plug` and `coc.nvim`
 sudo pacman -S neovim nodejs
 
-# Required by `minimap.vim`
-paru --skipreview -S code-minimap
-
 # `vim-plug`
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'

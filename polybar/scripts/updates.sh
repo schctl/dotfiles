@@ -3,7 +3,7 @@
 NOTIFY_ICON=/usr/share/icons/Papirus-Dark/32x32/apps/system-software-update.svg
 
 update() {
-    UPDATES=$(paru -Qu | wc -l);
+    UPDATES=$(paru -Qu 2>/dev/null | wc -l);
 }
 
 notify() {
@@ -22,12 +22,12 @@ while true; do
 
     if (( UPDATES == 0 )); then
         echo " 0"
-        sleep 300
+        sleep 240
     fi
 
     while (( UPDATES > 0 )); do
         echo " $UPDATES"
-        sleep 10
+        sleep 16
         update
     done
 done
