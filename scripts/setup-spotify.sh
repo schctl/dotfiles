@@ -4,6 +4,9 @@
 
 set -e
 
+CONFIG=${XDG_CONFIG_HOME-$HOME/.config}
+
+mkdir -p $CONFIG
 pushd /tmp
 
 # Install spotify and spicetify
@@ -11,7 +14,7 @@ paru --skipreview -S spotify spicetify-cli
 
 # Spicetify-themes
 git clone https://github.com/morpheusthewhite/spicetify-themes.git
-cp -r ./spicetify-themes/* ~/.config/spicetify/Themes
+cp -r ./spicetify-themes/* $CONFIG/spicetify/Themes
 rm -rf spicetify-themes
 
 spicetify config current_theme Sleek
