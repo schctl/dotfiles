@@ -4,7 +4,6 @@
 
 set -e
 
-
 CONFIG=${XDG_CONFIG_HOME-$HOME/.config}
 ABS_PATH=$(dirname $(realpath $0))/../
 

@@ -21,6 +21,7 @@ spicetify config current_theme Sleek
 spicetify config color_scheme Nord
 spicetify config extensions bookmark.js
 spicetify config extensions fullAppDisplay.js
+spicetify config extensions popupLyrics.js
 spicetify apply
 
 popd # /tmp
