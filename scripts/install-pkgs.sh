@@ -24,6 +24,7 @@ REQUIRED_PKGS="      \
     ripgrep          \
     npm              \
     fd               \
+    wget             \
     ttf-font-awesome noto-fonts-emoji"
 
 REQUIRED_AUR_PKGS="  \

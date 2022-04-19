@@ -7,14 +7,12 @@ potentially destructive actions, so be careful if you intend to use them.
 
 ## Screenshots
 
-<img src="screenshots/rofi.png">
-<img src="screenshots/vscode.png">
-<img src="screenshots/spotify_blender.png">
-<img src="screenshots/exit-i3.png">
+![rofi](https://i.imgur.com/PCOuKR2.png)
+![vscode](https://i.imgur.com/H9QAETv.png)
+![exit-i3](https://i.imgur.com/lntX40H.png)
 
 ---
 
 ### License
 
-All the included [wallpapers](./wall) are licensed under [`CC-BY-4.0`](./wall/LICENSE). Everything
-else is licensed under [`GPL-3.0`](./LICENSE).
+[`GPL-3.0`](./LICENSE)
