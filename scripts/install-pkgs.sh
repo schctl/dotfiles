@@ -4,31 +4,31 @@
 
 set -e
 
-REQUIRED_PKGS="         \
-    base-devel          \
-    xorg xorg-xinit     \
+REQUIRED_PKGS="      \
+    base-devel       \
+    xorg xorg-xinit  \
     pipewire pipewire-pulse pipewire-alsa pipewire-jack  \
-    i3-gaps             \
-    feh                 \
-    dunst               \
-    alacritty           \
-    rofi                \
-    zsh                 \
-    curl                \
-    scrot               \
-    git                 \
-    neovim              \
-    rustup              \
-    exa                 \
-    ripgrep             \
-    npm                 \
-    fd                  \
+    i3-gaps          \
+    picom            \
+    feh              \
+    dunst            \
+    alacritty        \
+    rofi             \
+    zsh              \
+    curl             \
+    scrot            \
+    git              \
+    neovim           \
+    rustup           \
+    exa              \
+    ripgrep          \
+    npm              \
+    fd               \
     ttf-font-awesome noto-fonts-emoji"
 
-REQUIRED_AUR_PKGS="     \
-    polybar             \
-    pfetch-git          \
-    picom-ibhagwan-git  \
+REQUIRED_AUR_PKGS="  \
+    polybar          \
+    pfetch-git       \
     nerd-fonts-mononoki nerd-fonts-roboto-mono ttf-vlgothic ttf-nerd-fonts-symbols-mono"
 
 install_pkgs() {
