@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 
-# Setup spotify
+# Install and setup spotify
 
 set -e
 

@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 
-# Setup neovim
+# Install and setup neovim
 
 set -e
 
@@ -9,7 +9,7 @@ ABS_PATH=$(dirname $(realpath $0))/../
 
 mkdir -p $CONFIG
 
-# Install neovim if its not already
+# Install neovim if its not already installed
 # nodejs required by `vim-plug` and `coc.nvim`
 sudo pacman -S neovim nodejs
 

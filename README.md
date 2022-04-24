@@ -1,9 +1,22 @@
 # Dotfiles
 
-This repository contains my application configuration files, and some helper scripts.
+My personal configuration files and some helper scripts.
 
-**Disclaimer:** Everything in this repository is for my **personal** use. The scripts could perform
-potentially destructive actions, so be careful if you intend to use them.
+## Installation
+
+***Disclaimer:** The scripts could perform potentially destructive actions, so please read through them
+if you intend to use them.*
+
+To install the base configuration:
+
+1. Clone the repository
+2. Run the [`install.sh`] script
+
+```sh
+git clone https://github.com/schctl/dotfiles.git
+cd dotfiles
+./scripts/install.sh
+```
 
 ## Screenshots
 
@@ -15,4 +28,7 @@ potentially destructive actions, so be careful if you intend to use them.
 
 ### License
 
-[`GPL-3.0`](./LICENSE)
+[`GPL-3.0`]
+
+[`install.sh`]: scripts/install.sh
+[`GPL-3.0`]: ./LICENSE
