@@ -32,8 +32,10 @@ cd dotfiles
 
 ### Thanks
 
-Some configs have been adapted from work by [Aditya Shakya](https://github.com/adi1090x) on
+- [Wallpaper](https://unsplash.com/photos/64eOIfnh54E) by [Nixon Osckar](https://unsplash.com/@nixaaan) on [Unsplash].
+- Some configs have been adapted from work by [Aditya Shakya](https://github.com/adi1090x) on
 [`polybar-themes`](https://github.com/adi1090x/polybar-themes) and [`rofi`](https://github.com/adi1090x/rofi).
 
 [`install.sh`]: scripts/install.sh
 [`GPL-3.0`]: ./LICENSE
+[unsplash]: https://unsplash.com/
