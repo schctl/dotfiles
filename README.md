@@ -21,7 +21,7 @@ cd dotfiles
 ## Screenshots
 
 ![rofi](https://i.imgur.com/PCOuKR2.png)
-![vscode](https://i.imgur.com/H9QAETv.png)
+![vscode](https://i.imgur.com/AV7jibk.png)
 ![exit-i3](https://i.imgur.com/lntX40H.png)
 
 ---
