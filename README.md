@@ -1,20 +1,41 @@
 # Dotfiles
 
-This repository contains my application configuration files, and some helper scripts.
+My personal configuration files and some helper scripts.
 
-**Disclaimer:** Everything in this repository is for my **personal** use. The scripts could perform
-potentially destructive actions, so be careful if you intend to use them.
+## Installation
+
+***Disclaimer:** The scripts could perform potentially destructive actions, so please read through them
+if you intend to use them.*
+
+To install the base configuration:
+
+1. Clone the repository
+2. Run the [`install.sh`] script
+
+```sh
+git clone https://github.com/schctl/dotfiles.git
+cd dotfiles
+./scripts/install.sh
+```
 
 ## Screenshots
 
-<img src="screenshots/rofi.png">
-<img src="screenshots/vscode.png">
-<img src="screenshots/spotify_blender.png">
-<img src="screenshots/exit-i3.png">
+![rofi](https://i.imgur.com/PCOuKR2.png)
+![vscode](https://i.imgur.com/AV7jibk.png)
+![exit-i3](https://i.imgur.com/lntX40H.png)
 
 ---
 
 ### License
 
-All the included [wallpapers](./wall) are licensed under [`CC-BY-4.0`](./wall/LICENSE). Everything
-else is licensed under [`GPL-3.0`](./LICENSE).
+[`GPL-3.0`]
+
+### Thanks
+
+- [Wallpaper](https://unsplash.com/photos/64eOIfnh54E) by [Nixon Osckar](https://unsplash.com/@nixaaan) on [Unsplash].
+- Some configs have been adapted from work by [Aditya Shakya](https://github.com/adi1090x) on
+[`polybar-themes`](https://github.com/adi1090x/polybar-themes) and [`rofi`](https://github.com/adi1090x/rofi).
+
+[`install.sh`]: scripts/install.sh
+[`GPL-3.0`]: ./LICENSE
+[unsplash]: https://unsplash.com/

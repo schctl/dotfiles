@@ -3,7 +3,7 @@
 NOTIFY_ICON=/usr/share/icons/Papirus-Dark/32x32/apps/system-software-update.svg
 
 update() {
-    UPDATES=$(paru -Qu 2>/dev/null | wc -l);
+    UPDATES=$(expr $(paru -Qua 2>/dev/null | wc -l) + $(checkupdates 2>/dev/null | wc -l));
 }
 
 notify() {

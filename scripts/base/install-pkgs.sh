@@ -8,6 +8,7 @@ REQUIRED_PKGS="      \
     base-devel       \
     xorg xorg-xinit  \
     pipewire pipewire-pulse pipewire-alsa pipewire-jack  \
+    pacman-contrib   \
     i3-gaps          \
     picom            \
     feh              \
@@ -24,6 +25,7 @@ REQUIRED_PKGS="      \
     ripgrep          \
     npm              \
     fd               \
+    wget             \
     ttf-font-awesome noto-fonts-emoji"
 
 REQUIRED_AUR_PKGS="  \

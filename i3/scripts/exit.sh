@@ -5,7 +5,7 @@ set -e
 chosen="$(rofi -dmenu\
 		-i\
 		-no-fixed-num-lines\
-		-p "Exit i3? : "\
+		-p "Exit i3? [y/N]: "\
 		-theme ~/.config/rofi/exit-i3.rasi | tr '[:upper:]' '[:lower:]')"
 
 case $chosen in
