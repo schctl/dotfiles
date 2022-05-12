@@ -11,7 +11,9 @@ PKGS="              \
     btop            \
     mtpfs gvfs-mtp gvfs-gphoto2  \
     discord         \
-    onefetch"
+    onefetch
+    gping
+    hyperfine"
 
 PKGS_AUR="          \
     firefox-nightly \
