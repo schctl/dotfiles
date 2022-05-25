@@ -211,4 +211,4 @@ exec_always --no-startup-id feh --bg-scale ~/Pictures/Wallpapers/mountains.jpg
 exec_always --no-startup-id ~/.config/polybar/scripts/launch.sh
 
 # Screenshots
-bindsym $mod+s exec scrot ~/Pictures/%Y-%m-%d_%H-%M-%S.png
+bindsym $mod+s exec scrot ~/Pictures/screenshots/%Y-%m-%d_%H-%M-%S.png

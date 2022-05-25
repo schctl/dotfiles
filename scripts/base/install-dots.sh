@@ -8,7 +8,7 @@ CONFIG=${XDG_CONFIG_HOME-$HOME/.config}
 ABS_PATH=$(dirname $(realpath $0))/../
 
 mkdir -p $CONFIG
-mkdir -p $HOME/Pictures/
+mkdir -p $HOME/Pictures/screenshots
 
 # Link config files
 ln -s $ABS_PATH/rofi      $CONFIG/rofi
