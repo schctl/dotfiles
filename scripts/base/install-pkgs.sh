@@ -30,7 +30,7 @@ REQUIRED_PKGS="      \
 
 REQUIRED_AUR_PKGS="  \
     polybar          \
-    pfetch-git       \
+    nitch            \
     nerd-fonts-mononoki nerd-fonts-roboto-mono ttf-vlgothic ttf-nerd-fonts-symbols-mono"
 
 install_pkgs() {

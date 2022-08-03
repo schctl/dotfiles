@@ -109,4 +109,4 @@ alias find="fd"
 
 alias ls-installed="comm -23 <(pacman -Qqett | sort) <(pacman -Qqg base-devel | sort | uniq)"
 
-pfetch
+nitch
