@@ -53,7 +53,8 @@ bindsym $mod+Shift+q kill
 # launch rofi
 bindsym $mod+d exec rofi -no-config -no-lazy-grab -show drun -modi drun -theme ~/.config/rofi/config.rasi
 # launch rofi with proprietary AMD drivers
-bindsym $mod+p exec progl rofi -no-config -no-lazy-grab -show drun -modi drun -theme ~/.config/rofi/config.rasi
+# requires gaming packages from this repo
+bindsym $mod+p exec vk_pro progl rofi -no-config -no-lazy-grab -show drun -modi drun -theme ~/.config/rofi/config.rasi
 
 # change focus
 bindsym $mod+j focus left
