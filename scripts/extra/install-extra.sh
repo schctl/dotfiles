@@ -10,9 +10,9 @@ PKGS="              \
     nautilus        \
     btop            \
     mtpfs gvfs-mtp gvfs-gphoto2  \
-    discord         \
-    onefetch
-    gping
+    discord_arch_electron        \
+    onefetch   \
+    gping      \
     hyperfine"
 
 PKGS_AUR="          \

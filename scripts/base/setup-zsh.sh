@@ -1,6 +1,8 @@
 #!/usr/bin/env sh
 
-# Install zsh configs
+# Install zsh configs.
+# Should be run separately after installing packages since installing zsh will replace
+# these configs for some reason.
 
 set -e
 
