@@ -1,5 +1,4 @@
 #!/usr/bin/env sh
-
 # Some extra packages I use frequently
 
 set -e
@@ -10,15 +9,11 @@ PKGS="              \
     nautilus        \
     btop            \
     mtpfs gvfs-mtp gvfs-gphoto2  \
-    discord_arch_electron        \
-    onefetch   \
-    gping      \
-    hyperfine"
+    discord_arch_electron"
 
 PKGS_AUR="          \
     firefox-nightly \
-    jmtpfs          \
-    visual-studio-code-bin"
+    jmtpfs"
 
-sudo pacman --noconfirm -S $(echo $PKGS)
-paru --skipreview -S $(echo $PKGS_AUR)
+sudo pacman --noconfirm -S $PKGS
+paru --skipreview -S $PKGS_AUR

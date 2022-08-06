@@ -1,5 +1,4 @@
 #!/usr/bin/env sh
-
 # Some cargo subcommands
 
 CARGO_CMDS="
@@ -11,4 +10,4 @@ CARGO_CMDS="
     cargo-msrv       \
     cargo-pgo"
 
-cargo install $(echo $CARGO_CMDS)
+cargo install $CARGO_CMDS

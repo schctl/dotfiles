@@ -1,5 +1,4 @@
 #!/usr/bin/env sh
-
 # Install required packages for this config
 
 set -e

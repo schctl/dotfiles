@@ -1,5 +1,4 @@
 #!/usr/bin/env sh
-
 # Gaming setup
 
 # Open AMD drivers
