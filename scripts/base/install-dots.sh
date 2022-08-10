@@ -10,13 +10,13 @@ mkdir -p $CONFIG
 mkdir -p $HOME/Pictures/screenshots
 
 # Link config files
-ln -s $ROOT_PATH/rofi      $CONFIG/rofi
-ln -s $ROOT_PATH/polybar   $CONFIG/polybar
-ln -s $ROOT_PATH/picom     $CONFIG/picom
-ln -s $ROOT_PATH/i3        $CONFIG/i3
-ln -s $ROOT_PATH/dunst     $CONFIG/dunst
-ln -s $ROOT_PATH/alacritty $CONFIG/alacritty
-ln -s $ROOT_PATH/xinitrc   $HOME/.xinitrc
+ln -s $ROOT_PATH/dotfiles/rofi      $CONFIG/rofi
+ln -s $ROOT_PATH/dotfiles/polybar   $CONFIG/polybar
+ln -s $ROOT_PATH/dotfiles/picom     $CONFIG/picom
+ln -s $ROOT_PATH/dotfiles/i3        $CONFIG/i3
+ln -s $ROOT_PATH/dotfiles/dunst     $CONFIG/dunst
+ln -s $ROOT_PATH/dotfiles/alacritty $CONFIG/alacritty
+ln -s $ROOT_PATH/dotfiles/xinitrc   $HOME/.xinitrc
 
 # Download wallpaper
 wget https://unsplash.com/photos/64eOIfnh54E/download?ixid=MnwxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNjUwNzgxMTY4&force=true&w=1920 -O $HOME/Pictures/Wallpapers/mountains.jpg

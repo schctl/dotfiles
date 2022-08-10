@@ -53,17 +53,10 @@ install_aur_pkgs() {
     paru --skipreview -S $REQUIRED_AUR_PKGS
 }
 
-install_omz() {
-    sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-}
+
 
 install_pkgs
 install_paru
 install_aur_pkgs
 
-echo -n "Install Oh My ZSH? [y/N]"
-read omz
 
-if [ "$omz" != "${omz#[Yy]}" ] ;then
-    install_omz
-fi
