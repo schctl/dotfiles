@@ -53,10 +53,6 @@ install_aur_pkgs() {
     paru --skipreview -S $REQUIRED_AUR_PKGS
 }
 
-
-
 install_pkgs
 install_paru
 install_aur_pkgs
-
-
