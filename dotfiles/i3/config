@@ -194,8 +194,10 @@ client.unfocused    $inactive-bg-clr   $inactive-bg-clr    $inactive-text-clr   
 client.urgent       $urgent-bg-clr     $bg-clr             $text-clr            $indicator-clr
 
 # Border
-for_window [class=".*"] title_format "<span font='monospace 8'> </span>"
 for_window [class=".*"] border pixel 2
+# Android Emulator
+for_window [window_type="utility"] border pixel 0
+for_window [title="Android Emulator - *"] border pixel 0
 
 # Gaps
 gaps inner 5

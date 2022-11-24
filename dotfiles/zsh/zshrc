@@ -101,6 +101,12 @@ export EDITOR=nvim
 export PATH=$PATH:/home/$(whoami)/.cargo/bin:/home/$(whoami)/.local/bin
 export LANG=en_US.UTF-8
 
+# Android SDK
+export ANDROID_SDK_ROOT=$HOME/Android/Sdk
+export ANDROID_HOME=$HOME/Android/Sdk
+export PATH=$PATH:$ANDROID_SDK_ROOT/emulator
+export PATH=$PATH:$ANDROID_SDK_ROOT/platform-tools
+
 alias vim="nvim"
 alias ls="exa"
 alias grep="rg"
