@@ -205,7 +205,7 @@ gaps inner 5
 # ============================ Custom ===========================
 
 # Compositor
-exec_always --no-startup-id picom --experimental-backends &
+exec_always --no-startup-id picom &
 
 # Wallpaper
 exec_always --no-startup-id feh --bg-scale ~/Pictures/Wallpapers/mountains.jpg
