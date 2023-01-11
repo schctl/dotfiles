@@ -8,7 +8,7 @@ REQUIRED_PKGS="      \
     xorg xorg-xinit  \
     pipewire pipewire-pulse pipewire-alsa pipewire-jack  \
     pacman-contrib   \
-    i3-gaps          \
+    i3-wm            \
     picom            \
     feh              \
     dunst            \
@@ -30,7 +30,7 @@ REQUIRED_PKGS="      \
 REQUIRED_AUR_PKGS="  \
     polybar          \
     nitch            \
-    nerd-fonts-mononoki nerd-fonts-roboto-mono ttf-vlgothic ttf-nerd-fonts-symbols-mono"
+    nerd-fonts-mononoki nerd-fonts-roboto-mono ttf-vlgothic ttf-nerd-fonts-symbols-1000-em"
 
 install_pkgs() {
     sudo pacman --noconfirm -Syu
