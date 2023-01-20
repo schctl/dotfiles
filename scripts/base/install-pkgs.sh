@@ -25,12 +25,12 @@ REQUIRED_PKGS="      \
     npm              \
     fd               \
     wget             \
-    ttf-font-awesome noto-fonts-emoji"
+    ttf-font-awesome noto-fonts-emoji ttf-mononoki-nerd ttf-roboto-mono-nerd"
 
 REQUIRED_AUR_PKGS="  \
     polybar          \
     nitch            \
-    nerd-fonts-mononoki nerd-fonts-roboto-mono ttf-vlgothic ttf-nerd-fonts-symbols-1000-em"
+    ttf-vlgothic ttf-nerd-fonts-symbols-1000-em"
 
 install_pkgs() {
     sudo pacman --noconfirm -Syu
