@@ -17,4 +17,3 @@ sudo pacman --noconfirm -S $PKGS
 paru --skipreview -S $PKGS_AUR
 
 $ROOT_PATH/scripts/extra/dev/cargo.sh
-$ROOT_PATH/scripts/extra/dev/nvim.sh
