@@ -14,7 +14,7 @@ REQUIRED_PKGS="      \
     dunst            \
     alacritty        \
     rofi             \
-    zsh              \
+    fish starship    \
     curl             \
     scrot            \
     git              \
