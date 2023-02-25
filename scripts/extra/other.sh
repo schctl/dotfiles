@@ -8,6 +8,7 @@ PKGS="              \
     python-dbus     \
     nautilus        \
     btop            \
+    dust            \
     mtpfs gvfs-mtp gvfs-gphoto2  \
     discord_arch_electron"
 

@@ -15,5 +15,3 @@ PKGS_AUR="visual-studio-code-bin"
 
 sudo pacman --noconfirm -S $PKGS
 paru --skipreview -S $PKGS_AUR
-
-$ROOT_PATH/scripts/extra/dev/cargo.sh
