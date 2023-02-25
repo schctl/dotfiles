@@ -117,4 +117,4 @@ alias size_all="du -sk $(fd -H -d 1) | sort -n"
 
 alias ls-installed="comm -23 <(pacman -Qqett | sort) <(pacman -Qqg base-devel | sort | uniq)"
 
-nitch
+pfetch

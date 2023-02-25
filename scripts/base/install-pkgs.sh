@@ -29,7 +29,7 @@ REQUIRED_PKGS="      \
 
 REQUIRED_AUR_PKGS="  \
     polybar          \
-    nitch            \
+    pfetch            \
     ttf-vlgothic ttf-nerd-fonts-symbols-1000-em"
 
 install_pkgs() {
