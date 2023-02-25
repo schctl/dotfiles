@@ -16,5 +16,4 @@ PKGS_AUR="          \
     firefox-nightly \
     jmtpfs"
 
-sudo pacman --noconfirm -S $PKGS
-paru --skipreview -S $PKGS_AUR
+paru --sudoloop --skipreview -S $PKGS $PKGS_AUR

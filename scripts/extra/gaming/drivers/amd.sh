@@ -15,4 +15,4 @@ CLOSED_DRIVERS="            \
 TOOLS="                     \
     amd-vulkan-prefixes"
 
-paru -S $OPEN_DRIVERS $CLOSED_DRIVERS $TOOLS
+paru --sudoloop -S $OPEN_DRIVERS $CLOSED_DRIVERS $TOOLS

@@ -27,7 +27,7 @@ install_tools() {
         lutris                  \
         heroic-games-launcher-beta-bin"
 
-    paru -S $TOOLS $COMPAT $ENVIRONMENTS
+    paru --sudoloop -S $TOOLS $COMPAT $ENVIRONMENTS
 }
 
 install_drivers

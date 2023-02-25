@@ -33,8 +33,8 @@ REQUIRED_AUR_PKGS="  \
     ttf-vlgothic ttf-nerd-fonts-symbols-1000-em"
 
 install_pkgs() {
-    sudo pacman --noconfirm -Syu
-    sudo pacman --noconfirm -S $REQUIRED_PKGS
+    sudo pacman -Syu
+    sudo pacman -S $REQUIRED_PKGS
     # Setup rust
     rustup default stable
 }
@@ -50,7 +50,7 @@ install_paru() {
 }
 
 install_aur_pkgs() {
-    paru --skipreview -S $REQUIRED_AUR_PKGS
+    paru --sudoloop --skipreview -S $REQUIRED_AUR_PKGS
 }
 
 install_pkgs

@@ -13,5 +13,4 @@ PKGS="         \
 
 PKGS_AUR="visual-studio-code-bin"
 
-sudo pacman --noconfirm -S $PKGS
-paru --skipreview -S $PKGS_AUR
+paru --sudoloop --skipreview -S $PKGS $PKGS_AUR
