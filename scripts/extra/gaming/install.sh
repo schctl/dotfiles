@@ -24,8 +24,7 @@ install_tools() {
     # Environments
     ENVIRONMENTS="              \
         steam                   \
-        lutris                  \
-        heroic-games-launcher-beta-bin"
+        heroic-games-launcher-bin"
 
     paru --sudoloop -S $TOOLS $COMPAT $ENVIRONMENTS
 }
