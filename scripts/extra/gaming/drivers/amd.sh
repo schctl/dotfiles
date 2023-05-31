@@ -7,9 +7,13 @@ OPEN_DRIVERS="              \
     vulkan-radeon"
 
 # Properietary AMD drivers
+# Can't install `amdgpu-pro-installer` for some reason
 CLOSED_DRIVERS="            \
-    amdgpu-pro-libgl        \
-    vulkan-amdgpu-pro"
+    amf-amdgpu-pro          \
+    amdgpu-pro-oglp         \
+    lib32-amdgpu-pro-oglp   \
+    vulkan-amdgpu-pro       \
+    lib32-vulkan-amdgpu-pro"
 
 # Miscellaneous tools
 TOOLS="                     \
