@@ -5,7 +5,7 @@
 
 set -e
 
-ROOT_PATH=$(dirname $(realpath $0))/../../
+ROOT_PATH=$(realpath $(dirname $0)/../../)
 
 # Run omz installer
 install_omz() {

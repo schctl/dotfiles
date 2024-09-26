@@ -4,7 +4,7 @@
 set -e
 
 CONFIG=${XDG_CONFIG_HOME-$HOME/.config}
-ROOT_PATH=$(dirname $(realpath $0))/../../
+ROOT_PATH=$(realpath $(dirname $0)/../../)
 
 mkdir -p $CONFIG
 mkdir -p $HOME/Pictures/screenshots
@@ -17,9 +17,6 @@ ln -s $ROOT_PATH/dotfiles/i3        $CONFIG/i3
 ln -s $ROOT_PATH/dotfiles/dunst     $CONFIG/dunst
 ln -s $ROOT_PATH/dotfiles/alacritty $CONFIG/alacritty
 ln -s $ROOT_PATH/dotfiles/xinitrc   $HOME/.xinitrc
-
-# Download wallpaper
-wget https://unsplash.com/photos/64eOIfnh54E/download?ixid=MnwxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNjUwNzgxMTY4&force=true&w=1920 -O $HOME/Pictures/Wallpapers/mountains.jpg
 
 # Link zsh configs
 $ROOT_PATH/scripts/base/setup-zsh.sh
