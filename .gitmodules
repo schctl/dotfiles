@@ -1,0 +1,3 @@
+[submodule "distro-grub-themes"]
+	path = distro-grub-themes
+	url = https://github.com/AdisonCavani/distro-grub-themes.git
