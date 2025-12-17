@@ -15,7 +15,6 @@ ln -s $ROOT_PATH/dotfiles/polybar   $CONFIG/polybar
 ln -s $ROOT_PATH/dotfiles/picom     $CONFIG/picom
 ln -s $ROOT_PATH/dotfiles/i3        $CONFIG/i3
 ln -s $ROOT_PATH/dotfiles/dunst     $CONFIG/dunst
-ln -s $ROOT_PATH/dotfiles/alacritty $CONFIG/alacritty
 ln -s $ROOT_PATH/dotfiles/xinitrc   $HOME/.xinitrc
 
 # Link zsh configs
