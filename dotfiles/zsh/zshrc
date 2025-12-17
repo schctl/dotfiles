@@ -70,7 +70,7 @@ ENABLE_CORRECTION="true"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git python man rust)
+plugins=(git python man rust aliases fzf eza z zsh-autosuggestions)
 
 # source $ZSH/oh-my-zsh.sh
 source ~/.oh-my-zsh/oh-my-zsh.sh
@@ -108,12 +108,9 @@ export PATH=$PATH:$ANDROID_SDK_ROOT/emulator
 export PATH=$PATH:$ANDROID_SDK_ROOT/platform-tools
 
 alias vim="nvim"
-alias ls="exa"
 alias grep="rg"
-alias ytdl="youtube-dl"
 alias find="fd"
-alias tree="exa --tree"
-alias size_all="du -sk $(fd -H -d 1) | sort -n"
+alias tree="ls --tree"
 
 alias ls-installed="comm -23 <(pacman -Qqett | sort) <(pacman -Qqg base-devel | sort | uniq)"
 

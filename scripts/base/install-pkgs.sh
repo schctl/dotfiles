@@ -25,6 +25,7 @@ REQUIRED_PKGS="      \
     npm              \
     fd               \
     wget             \
+    fzf              \
     ttf-font-awesome noto-fonts-emoji ttf-mononoki-nerd ttf-roboto-mono-nerd"
 
 REQUIRED_AUR_PKGS="  \

@@ -22,6 +22,10 @@ link_themes() {
     done
 }
 
+setup_zsh_autosuggestions() {
+    git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+}
+
 # Link zsh config
 link_configs() {
     rm -f $HOME/.zshrc*
@@ -31,3 +35,4 @@ link_configs() {
 install_omz
 link_themes
 link_configs
+setup_zsh_autosuggestions
